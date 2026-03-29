@@ -9,66 +9,66 @@ import { siteConfig } from '@/lib/site';
 import { SchemaOrg } from '@/components/seo/SchemaOrg';
 
 export const metadata: Metadata = {
-  title: 'Biohazard Cleaning Mackay | Trauma & Crime Scene Specialists',
+  title: 'Biohazard Cleaning Mackay | Trauma & Property Recovery Specialists',
   description:
-    "Mackay Biohazard Cleaning provides practical, discreet support for hoarding, trauma, biohazard and complex property situations across Mackay and surrounding regions.",
+    'Mackay Biohazard Cleaning provides specialist biohazard, trauma, hoarding and complex property recovery services across Mackay and surrounding regions. Fully insured, discreet and responsive.',
   alternates: { canonical: '/' },
 };
 
-const homepageServices = [
+const serviceCards = [
   {
     title: 'Hoarding & Squalor Recovery',
-    description: 'Structured cleanup and property recovery for complex living environments, tenancy matters and supported situations.',
+    description: 'Structured cleanup and property recovery for severe clutter, squalor and difficult living environments.',
     href: '/services/hoarding-cleaning/',
-    image: '/images/home-card-hoarding.svg',
-    alt: 'Hoarding and squalor recovery service',
+    image: '/images/hoarding-cleanup-mackay-kitchen-before.jpg',
+    alt: 'Severe hoarding kitchen before cleanup in Mackay home',
   },
   {
     title: 'Unattended Death & Biohazard Cleaning',
-    description: 'Controlled remediation for sensitive sites involving contamination, odour concerns and difficult property conditions.',
+    description: 'Discreet response for contamination, odour concerns and sensitive environments requiring controlled remediation.',
     href: '/services/biohazard-cleaning/',
-    image: '/images/home-card-biohazard.svg',
-    alt: 'Unattended death and biohazard cleaning service',
+    image: '/images/biohazard-cleaning-mackay-onsite.jpg',
+    alt: 'Professional biohazard cleaning response in Mackay home',
   },
   {
     title: 'Trauma & Crime Scene Cleaning',
-    description: 'Discreet, practical cleanup for traumatic incidents after scene release, with calm communication throughout.',
+    description: 'Calm, practical cleanup after traumatic events, with clear communication from first contact to handover.',
     href: '/services/trauma-crime-scene-cleaning/',
-    image: '/images/home-card-trauma.svg',
-    alt: 'Trauma and crime scene cleaning service',
+    image: '/images/trauma-cleaning-mackay-ppe-doorway.jpg',
+    alt: 'Biohazard cleaning technician wearing PPE onsite in Mackay',
   },
   {
     title: 'Vacate & Property Recovery',
-    description: 'Property reset support for landlords, families, housing stakeholders and time-sensitive handovers.',
+    description: 'Fast, practical reset support for families, landlords, real estate agents and time-sensitive property handovers.',
     href: '/contact/',
-    image: '/images/home-card-vacate.svg',
-    alt: 'Vacate and property recovery service',
-  },
-  {
-    title: 'Crisis Navigation',
-    description: 'Supportive guidance through distressing or overwhelming situations, helping clients make sense of options and next steps.',
-    href: '/contact/',
-    image: '/images/home-card-crisis.svg',
-    alt: 'Crisis navigation support service',
+    image: '/images/cleaned-bedroom-mackay-after.jpg',
+    alt: 'Cleaned and restored bedroom after hoarding cleanup in Mackay',
   },
 ];
 
-const trustedBy = ['Families', 'Property Managers', 'Housing Services', 'Government & Support Agencies'];
+const trustedBy = ['NDIS Providers', 'Housing Services', 'Real Estate', 'Government Agencies'];
+
+const beforeAfter = [
+  {
+    title: 'Bedroom Recovery',
+    before: '/images/severe-clutter-bedroom-mackay-before.jpg',
+    beforeAlt: 'Cluttered bedroom with excessive items before cleaning in Mackay',
+    after: '/images/cleaned-bedroom-mackay-after.jpg',
+    afterAlt: 'Cleaned and restored bedroom after hoarding cleanup in Mackay',
+  },
+  {
+    title: 'Storage Reset',
+    before: '/images/decluttered-storage-mackay-after.jpg',
+    beforeAlt: 'Disorganised storage area before property recovery in Mackay',
+    after: '/images/organised-room-mackay-after.jpg',
+    afterAlt: 'Organised and decluttered storage area in Mackay home',
+  },
+];
 
 const testimonials = [
-  {
-    initials: 'A.B.',
-    quote:
-      'More than a cleaning service. The process was calm, respectful and far easier to deal with than we expected.',
-  },
-  {
-    initials: 'J.R.',
-    quote: 'Clear communication, discreet attendance and a practical plan from the first call.',
-  },
-  {
-    initials: 'M.T.',
-    quote: 'Professional, compassionate and very easy to work with during a difficult situation.',
-  },
+  'More than a cleaning service. The process was calm, respectful and life-changing.',
+  'Clear communication, discreet attendance and a practical plan from the first call.',
+  'Professional, compassionate and very easy to work with during a difficult situation.',
 ];
 
 export default function HomePage() {
@@ -93,76 +93,56 @@ export default function HomePage() {
     <>
       <SchemaOrg id="home-schema" data={homeSchema} />
 
-      <section className="border-b border-slate-200 bg-[linear-gradient(180deg,#f8f7f3_0%,#f2f0ea_100%)]">
-        <div className="container-shell py-8 lg:py-12">
-          <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-[0_24px_70px_rgba(31,41,51,0.08)] lg:grid lg:grid-cols-[1.02fr_0.98fr]">
-            <div className="flex flex-col justify-center px-7 py-10 sm:px-10 lg:px-12 lg:py-14">
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">24/7 emergency response</p>
-              <h1 className="mt-5 max-w-xl font-display text-[2.8rem] leading-[0.95] text-text sm:text-[3.4rem] lg:text-[4.1rem]">
-                Practical support for biohazard, trauma and complex property situations in Mackay
+      <section className="container-shell pt-8 pb-16 lg:pt-10 lg:pb-20">
+        <div className="overflow-hidden rounded-[2rem] border border-slate-300 bg-[#102845] shadow-[0_24px_70px_rgba(16,40,69,0.18)]">
+          <div className="relative min-h-[620px] lg:min-h-[700px]">
+            <Image
+              src="/images/hero-kerri-ppe-mackay.png"
+              alt="Biohazard cleaning specialist in PPE in Mackay"
+              fill
+              priority
+              className="object-cover object-[72%_center]"
+            />
+            <div className="absolute inset-0 bg-gradient-to-r from-[rgba(8,22,40,0.84)] via-[rgba(8,22,40,0.68)] to-[rgba(8,22,40,0.1)]" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[rgba(8,22,40,0.38)] to-transparent" />
+
+            <div className="relative z-10 flex min-h-[620px] max-w-[760px] flex-col justify-center px-8 py-12 sm:px-12 lg:min-h-[700px] lg:px-16">
+              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#d8ab39]">24/7 emergency response</p>
+              <h1 className="mt-5 max-w-[12ch] font-display text-[2.8rem] leading-[0.94] text-white sm:text-[3.6rem] lg:text-[4.5rem]">
+                Specialist Biohazard &amp; Trauma Cleaning Mackay
               </h1>
-              <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-600" id="homepage-summary">
-                Mackay Biohazard Cleaning helps families, landlords, agencies and property stakeholders respond to difficult situations with discreet attendance, clear communication and a practical plan. Services include hoarding and squalor recovery, trauma cleanup, biohazard cleaning, vacate support and crisis navigation when the next step is not obvious.
+              <p id="homepage-summary" className="mt-6 max-w-[34rem] text-lg leading-8 text-white/90 sm:text-[1.14rem]">
+                Discreet, controlled remediation for hoarding, squalor, trauma, biohazard and complex property situations across Mackay and surrounding regions. Every situation is handled with the right level of care, structure and practical direction from first contact to handover.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
-                <Button href={`tel:${siteConfig.phone}`}>Call Now</Button>
-                <Button href="/services/" variant="ghost">View Services</Button>
+                <Button href={`tel:${siteConfig.phone}`} className="bg-[#d0a233] text-[#102845] shadow-none hover:bg-[#e0b34a]">
+                  Call Now
+                </Button>
+                <Button href="/services/" variant="ghost" className="border-white/35 bg-white/10 text-white backdrop-blur hover:border-white hover:bg-white/18 hover:text-white">
+                  View Services
+                </Button>
               </div>
-              <div className="mt-8 grid gap-3 text-sm font-medium text-slate-600 sm:grid-cols-2">
-                <div className="rounded-2xl bg-stone-50 px-4 py-3">Fully insured</div>
-                <div className="rounded-2xl bg-stone-50 px-4 py-3">Discreet, respectful approach</div>
-                <div className="rounded-2xl bg-stone-50 px-4 py-3">Homes, agencies and property stakeholders</div>
-                <div className="rounded-2xl bg-stone-50 px-4 py-3">Regional Mackay coverage</div>
-              </div>
-            </div>
-
-            <div className="relative min-h-[360px] lg:min-h-full">
-              <Image
-                src="/images/home-hero-support.svg"
-                alt="Professional property recovery specialist in a complex home environment"
-                fill
-                priority
-                className="object-cover"
-              />
             </div>
           </div>
         </div>
       </section>
 
-      <section className="border-b border-slate-200 bg-white">
-        <div className="container-shell py-5">
-          <div className="grid gap-3 text-sm font-medium text-slate-600 sm:grid-cols-2 lg:grid-cols-4">
-            {['Fully insured', '24/7 emergency response', 'Discreet & confidential', 'Practical next-step guidance'].map((item) => (
-              <div key={item} className="flex items-center gap-3 rounded-2xl bg-stone-50 px-4 py-3">
-                <span className="h-2.5 w-2.5 rounded-full bg-accent" />
-                <span>{item}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="container-shell py-16 lg:py-20">
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="font-display text-[2.3rem] leading-none text-text sm:text-[2.8rem]">Specialist Property Recovery Services</h2>
-          <p className="mt-4 text-base leading-8 text-slate-600">
-            Service lines built around the situations people are actually facing, not just technical cleaning labels.
-          </p>
-        </div>
-
-        <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-5">
-          {homepageServices.map((service) => (
+      <section className="container-shell pb-16 lg:pb-20">
+        <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          {serviceCards.map((service) => (
             <article
               key={service.title}
-              className="overflow-hidden rounded-[1.5rem] border border-slate-200 bg-white shadow-[0_16px_48px_rgba(31,41,51,0.08)]"
+              className="overflow-hidden rounded-[1.2rem] border border-slate-200 bg-white shadow-[0_12px_32px_rgba(31,41,51,0.08)]"
             >
-              <Image src={service.image} alt={service.alt} width={800} height={520} className="h-48 w-full object-cover" />
+              <div className="relative h-52">
+                <Image src={service.image} alt={service.alt} fill className="object-cover" />
+              </div>
               <div className="p-5">
-                <h3 className="text-[1.6rem] font-semibold leading-[1.05] text-text">{service.title}</h3>
-                <p className="mt-3 min-h-[108px] text-sm leading-7 text-slate-600">{service.description}</p>
+                <h2 className="text-[1.65rem] font-semibold leading-[1.05] text-[#203550]">{service.title}</h2>
+                <p className="mt-3 min-h-[96px] text-sm leading-7 text-slate-600">{service.description}</p>
                 <Link
                   href={service.href}
-                  className="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-[#203550] px-4 py-3 text-sm font-semibold text-white transition hover:bg-slate-900"
+                  className="mt-4 inline-flex w-full items-center justify-center rounded-xl bg-[#203550] px-4 py-3 text-sm font-semibold text-white transition hover:bg-[#102845]"
                 >
                   Find Out More
                 </Link>
@@ -172,9 +152,21 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="container-shell py-4">
-        <div className="border-t border-slate-200 pt-8">
-          <h2 className="text-center font-display text-[2rem] leading-none text-text">Trusted By</h2>
+      <section className="container-shell pb-12">
+        <div className="rounded-[1.6rem] border border-slate-200 bg-stone-50 px-6 py-7 sm:px-8 lg:flex lg:items-center lg:justify-between lg:gap-8">
+          <div>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#d0a233]">Crisis Navigation</p>
+            <h2 className="mt-3 text-[2rem] font-semibold leading-tight text-[#203550]">When the next step is not obvious, we help bring structure to the situation.</h2>
+          </div>
+          <p className="mt-4 max-w-3xl text-base leading-8 text-slate-600 lg:mt-0">
+            Crisis Navigation is designed for situations that feel overwhelming, urgent or unclear. We help families, property stakeholders and support networks understand the practical next steps, coordinate a response and move forward with more certainty.
+          </p>
+        </div>
+      </section>
+
+      <section className="container-shell pb-14">
+        <div className="border-t border-slate-200 pt-10">
+          <h2 className="text-center font-display text-[2.2rem] leading-none text-[#203550]">Trusted By</h2>
           <div className="mt-6 grid gap-4 md:grid-cols-4">
             {trustedBy.map((item) => (
               <div key={item} className="rounded-2xl border border-slate-200 bg-stone-50 px-4 py-5 text-center text-lg font-medium text-slate-700">
@@ -185,27 +177,42 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mt-12 bg-[#203550] py-14 text-white">
+      <section className="bg-[#173556] py-12 text-white">
         <div className="container-shell text-center">
-          <h2 className="font-display text-[2.2rem] leading-none text-white">What Clients Say</h2>
-          <p className="mx-auto mt-4 max-w-3xl text-lg leading-8 text-white/85">
-            “More than a cleaning service. The process was calm, respectful and life-changing.”
-          </p>
-          <div className="mt-8 grid gap-5 md:grid-cols-3">
-            {testimonials.map((item) => (
-              <div key={item.initials} className="rounded-[1.5rem] border border-white/12 bg-white/8 p-6 text-left backdrop-blur-sm">
-                <p className="text-sm leading-7 text-white/85">{item.quote}</p>
-                <p className="mt-4 text-sm font-semibold tracking-[0.2em] text-[#d6b15f]">{item.initials}</p>
-              </div>
+          <h2 className="font-display text-[2.3rem] leading-none text-white">What Clients Say</h2>
+          <p className="mx-auto mt-5 max-w-4xl text-xl leading-8 text-white/88">“{testimonials[0]}”</p>
+          <div className="mt-6 flex items-center justify-center gap-2 text-[#d8ab39]">
+            {Array.from({ length: 5 }).map((_, index) => (
+              <span key={index} className="text-2xl">★</span>
             ))}
           </div>
         </div>
       </section>
 
       <section className="container-shell py-16 lg:py-20">
-        <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-[0_20px_60px_rgba(31,41,51,0.08)] lg:grid lg:grid-cols-[0.62fr_0.38fr]">
+        <div className="grid gap-8 lg:grid-cols-2">
+          {beforeAfter.map((item) => (
+            <div key={item.title} className="overflow-hidden rounded-[1.6rem] border border-slate-200 bg-white shadow-[0_14px_34px_rgba(31,41,51,0.06)]">
+              <div className="grid grid-cols-2">
+                <div className="relative h-72">
+                  <Image src={item.before} alt={item.beforeAlt} fill className="object-cover" />
+                  <div className="absolute left-4 top-4 rounded-full bg-[#102845] px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-white">Before</div>
+                </div>
+                <div className="relative h-72">
+                  <Image src={item.after} alt={item.afterAlt} fill className="object-cover" />
+                  <div className="absolute left-4 top-4 rounded-full bg-[#d0a233] px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-[#102845]">After</div>
+                </div>
+              </div>
+              <div className="px-5 py-4 text-center text-lg font-semibold text-[#203550]">{item.title}</div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="container-shell pb-16 lg:pb-20">
+        <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-[0_20px_60px_rgba(31,41,51,0.08)] lg:grid lg:grid-cols-[0.6fr_0.4fr]">
           <div className="px-7 py-8 sm:px-10 lg:px-12 lg:py-12">
-            <h2 className="font-display text-[2.3rem] leading-none text-text">Request a Fast Quote</h2>
+            <h2 className="font-display text-[2.5rem] leading-none text-[#203550]">Request a Fast Quote</h2>
             <p className="mt-4 max-w-2xl text-base leading-8 text-slate-600">
               All enquiries are handled discreetly. If the situation is urgent, call now. If you prefer to write first, use the form below.
             </p>
@@ -215,15 +222,17 @@ export default function HomePage() {
               <input name="phone" placeholder="Phone" className="rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none ring-0 transition focus:border-accent md:col-span-2" />
               <textarea name="message" placeholder="Brief description of the situation" rows={4} className="rounded-xl border border-slate-300 px-4 py-3 text-sm outline-none ring-0 transition focus:border-accent md:col-span-2" />
               <div className="md:col-span-2">
-                <button type="submit" className="inline-flex items-center justify-center rounded-xl bg-accent px-6 py-3 text-sm font-semibold text-white transition hover:brightness-110">
+                <p className="mb-4 text-sm text-slate-500">All enquiries are treated confidentially.</p>
+                <button type="submit" className="inline-flex items-center justify-center rounded-xl bg-[#d0a233] px-6 py-3 text-sm font-semibold text-[#102845] transition hover:brightness-110">
                   Send Enquiry
                 </button>
               </div>
             </form>
           </div>
 
-          <div className="relative min-h-[340px] border-t border-slate-200 lg:border-l lg:border-t-0">
-            <Image src="/images/home-quote-panel.svg" alt="Professional support during a complex property situation" fill className="object-cover" />
+          <div className="relative min-h-[360px] border-t border-slate-200 bg-[#203550] lg:border-l lg:border-t-0">
+            <Image src="/images/hero-kerri-ppe-mackay.png" alt="Biohazard cleaning specialist in protective gear in Mackay" fill className="object-cover object-[68%_center] opacity-95" />
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-transparent to-[rgba(16,40,69,0.08)]" />
           </div>
         </div>
       </section>
@@ -231,15 +240,15 @@ export default function HomePage() {
       <section className="container-shell pb-16 lg:pb-20">
         <div className="rounded-[2rem] border border-slate-200 bg-stone-50 p-7 sm:p-10">
           <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Coverage</p>
-            <h2 className="mt-4 font-display text-[2.2rem] leading-none text-text">Serving Mackay and surrounding regions</h2>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#d0a233]">Coverage</p>
+            <h2 className="mt-4 font-display text-[2.2rem] leading-none text-[#203550]">Serving Mackay and surrounding regions</h2>
             <p className="mt-4 text-base leading-8 text-slate-600">
               Regional coverage across Mackay, Sarina, Proserpine, Airlie Beach, Bowen, Moranbah, Clermont and Collinsville.
             </p>
           </div>
           <div className="mt-8 flex flex-wrap gap-3 text-sm text-slate-700">
             {locations.map((location) => (
-              <Link key={location.slug} href={`/locations/${location.slug}/`} className="rounded-full border border-slate-300 bg-white px-4 py-2 hover:border-accent hover:text-slate-900">
+              <Link key={location.slug} href={`/locations/${location.slug}/`} className="rounded-full border border-slate-300 bg-white px-4 py-2 hover:border-[#d0a233] hover:text-slate-900">
                 {location.name}
               </Link>
             ))}
@@ -250,8 +259,8 @@ export default function HomePage() {
       <section className="container-shell pb-16 lg:pb-20">
         <div className="mx-auto max-w-4xl">
           <div className="text-center">
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-accent">Common questions</p>
-            <h2 className="mt-4 font-display text-[2.2rem] leading-none text-text">Frequently Asked Questions</h2>
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#d0a233]">Common questions</p>
+            <h2 className="mt-4 font-display text-[2.2rem] leading-none text-[#203550]">Frequently Asked Questions</h2>
           </div>
           <div className="mt-10">
             <FaqAccordion items={homepageFaqs} />
