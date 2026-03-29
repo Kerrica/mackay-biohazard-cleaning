@@ -7,7 +7,7 @@ export const siteConfig = {
   abn: 'ABN available on request',
   serviceRegion: 'Mackay, Whitsundays, Bowen Basin and surrounding regions',
   description:
-    'Certified biohazard, trauma and hoarding cleaning specialists servicing Mackay and surrounding regions with discreet, compassionate 24/7 response.',
+    'Biohazard, trauma and hoarding cleaning services for Mackay and surrounding regions. Fully insured, discreet and available 24/7 for urgent response.',
 };
 
 export const baseKeywords = [

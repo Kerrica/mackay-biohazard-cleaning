@@ -1,10 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
-  <rect width="1600" height="900" fill="#0A0D12"/>
-  <rect x="40" y="40" width="1520" height="820" rx="36" fill="#12161D" stroke="#1E2530"/>
-  <circle cx="1280" cy="170" r="140" fill="#C8862A" fill-opacity="0.18"/>
-  <circle cx="330" cy="720" r="220" fill="#C8862A" fill-opacity="0.12"/>
-  <path d="M0 740C190 660 360 610 540 620C760 632 840 720 1050 736C1220 748 1400 700 1600 610V900H0V740Z" fill="#0F141B"/>
-  <rect x="118" y="118" width="300" height="10" rx="5" fill="#C8862A"/>
-  <text x="118" y="240" fill="#F0F2F5" font-size="72" font-family="Arial, sans-serif" font-weight="700">Compassionate trauma cleaning specialists</text>
-  <text x="118" y="320" fill="#7A8494" font-size="28" font-family="Arial, sans-serif">Replace with final AI-generated image using same filename.</text>
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="520" fill="#ECEFE9"/>
+<rect y="388" width="800" height="132" fill="#D6DDD3"/>
+<rect x="464" y="120" width="220" height="278" rx="24" fill="#5C6671"/>
+<rect x="120" y="104" width="250" height="218" rx="24" fill="#C8CEC4"/>
+<circle cx="550" cy="224" r="58" fill="#F7F7F5"/>
+<rect x="502" y="282" width="96" height="142" rx="28" fill="#F7F7F5"/>
+<rect x="474" y="348" width="30" height="120" rx="14" fill="#F7F7F5"/>
+<rect x="596" y="348" width="30" height="120" rx="14" fill="#F7F7F5"/>
+<circle cx="344" cy="264" r="36" fill="#C49A2C" fill-opacity="0.28"/>
+<path d="M212 388H436C458 388 476 406 476 428V520H172V428C172 406 190 388 212 388Z" fill="#B5BEB3"/>
 </svg>

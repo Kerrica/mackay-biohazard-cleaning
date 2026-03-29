@@ -3,15 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --color-bg: #0A0D12;
-  --color-surface: #12161D;
-  --color-border: #1E2530;
-  --color-accent: #C8862A;
-  --color-accent-lt: #E9A84C;
-  --color-text: #F0F2F5;
-  --color-muted: #7A8494;
-  --color-cta: #C8862A;
-  --color-cta-hover: #E9A84C;
+  --color-bg: #F7F7F5;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #F1F2EE;
+  --color-border: #D9DED5;
+  --color-accent: #C49A2C;
+  --color-accent-lt: #D9B356;
+  --color-text: #1F2933;
+  --color-muted: #5E6875;
+  --color-cta: #C49A2C;
+  --color-cta-hover: #B28921;
 }
 
 html {
@@ -19,7 +20,7 @@ html {
 }
 
 body {
-  background: var(--color-bg);
+  background: linear-gradient(180deg, #fcfcfa 0%, #f7f7f5 45%, #f3f4f0 100%);
   color: var(--color-text);
   font-family: var(--font-body), sans-serif;
 }
@@ -33,9 +34,26 @@ body {
 }
 
 .prose-copy p {
-  @apply text-base leading-8 text-slate-300;
+  @apply text-base leading-8 text-slate-700;
 }
 
 .prose-copy ul {
-  @apply space-y-3 text-slate-300;
+  @apply space-y-3 text-slate-700;
+}
+
+.soft-panel {
+  @apply rounded-[2rem] border border-[color:var(--color-border)] bg-white shadow-[0_16px_48px_rgba(31,41,51,0.08)];
+}
+
+.subtle-grid {
+  background-image:
+    linear-gradient(to right, rgba(31,41,51,0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(31,41,51,0.035) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.hero-radial {
+  background:
+    radial-gradient(circle at top right, rgba(196,154,44,0.18), transparent 26%),
+    radial-gradient(circle at bottom left, rgba(31,41,51,0.06), transparent 30%);
 }

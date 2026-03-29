@@ -1,10 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
-  <rect width="1600" height="900" fill="#0A0D12"/>
-  <rect x="40" y="40" width="1520" height="820" rx="36" fill="#12161D" stroke="#1E2530"/>
-  <circle cx="1280" cy="170" r="140" fill="#C8862A" fill-opacity="0.18"/>
-  <circle cx="330" cy="720" r="220" fill="#C8862A" fill-opacity="0.12"/>
-  <path d="M0 740C190 660 360 610 540 620C760 632 840 720 1050 736C1220 748 1400 700 1600 610V900H0V740Z" fill="#0F141B"/>
-  <rect x="118" y="118" width="300" height="10" rx="5" fill="#C8862A"/>
-  <text x="118" y="240" fill="#F0F2F5" font-size="72" font-family="Arial, sans-serif" font-weight="700">Professional hoarding cleanup Mackay</text>
-  <text x="118" y="320" fill="#7A8494" font-size="28" font-family="Arial, sans-serif">Replace with final AI-generated image using same filename.</text>
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="520" fill="#ECEFE9"/>
+<rect y="390" width="800" height="130" fill="#D8DED3"/>
+<rect x="104" y="90" width="250" height="248" rx="20" fill="#BFC8BC"/>
+<rect x="390" y="84" width="126" height="256" rx="18" fill="#A9B2A6"/>
+<rect x="530" y="150" width="132" height="190" rx="18" fill="#96A091"/>
+<rect x="184" y="232" width="136" height="108" rx="16" fill="#9AA396"/>
+<circle cx="584" cy="234" r="56" fill="#F7F7F5"/>
+<rect x="536" y="292" width="96" height="138" rx="28" fill="#F7F7F5"/>
+<rect x="508" y="360" width="30" height="110" rx="14" fill="#F7F7F5"/>
+<rect x="632" y="360" width="30" height="110" rx="14" fill="#F7F7F5"/>
+<rect x="522" y="148" width="124" height="26" rx="13" fill="#C49A2C" fill-opacity="0.3"/>
 </svg>

@@ -1,10 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
-  <rect width="1600" height="900" fill="#0A0D12"/>
-  <rect x="40" y="40" width="1520" height="820" rx="36" fill="#12161D" stroke="#1E2530"/>
-  <circle cx="1280" cy="170" r="140" fill="#C8862A" fill-opacity="0.18"/>
-  <circle cx="330" cy="720" r="220" fill="#C8862A" fill-opacity="0.12"/>
-  <path d="M0 740C190 660 360 610 540 620C760 632 840 720 1050 736C1220 748 1400 700 1600 610V900H0V740Z" fill="#0F141B"/>
-  <rect x="118" y="118" width="300" height="10" rx="5" fill="#C8862A"/>
-  <text x="118" y="240" fill="#F0F2F5" font-size="72" font-family="Arial, sans-serif" font-weight="700">Professional hazmat technician Mackay</text>
-  <text x="118" y="320" fill="#7A8494" font-size="28" font-family="Arial, sans-serif">Replace with final AI-generated image using same filename.</text>
+<svg width="1600" height="1100" viewBox="0 0 1600 1100" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1600" height="1100" fill="#E9ECE6"/>
+<rect y="720" width="1600" height="380" fill="#D4D9D0"/>
+<rect y="835" width="1600" height="265" fill="#BFC7BA"/>
+<rect x="1040" y="170" width="360" height="620" rx="24" fill="#56616C"/>
+<rect x="1080" y="220" width="280" height="150" rx="12" fill="#F7F7F5" fill-opacity="0.14"/>
+<rect x="1080" y="400" width="280" height="150" rx="12" fill="#F7F7F5" fill-opacity="0.12"/>
+<rect x="1080" y="580" width="280" height="150" rx="12" fill="#F7F7F5" fill-opacity="0.12"/>
+<rect x="100" y="270" width="540" height="470" rx="28" fill="#C9CEC3"/>
+<rect x="160" y="332" width="420" height="344" rx="20" fill="#AEB7AA"/>
+<path d="M760 820C820 650 905 590 985 560C1065 530 1110 520 1188 520C1290 520 1380 576 1460 690V1100H760V820Z" fill="#909A92"/>
+<circle cx="1180" cy="620" r="62" fill="#F7F7F5"/>
+<rect x="1128" y="680" width="104" height="182" rx="32" fill="#F7F7F5"/>
+<rect x="1094" y="754" width="44" height="192" rx="18" fill="#F7F7F5"/>
+<rect x="1222" y="754" width="44" height="192" rx="18" fill="#F7F7F5"/>
+<rect x="1110" y="500" width="140" height="34" rx="17" fill="#C49A2C" fill-opacity="0.42"/>
+<circle cx="1350" cy="710" r="48" fill="#F4F5F1"/>
+<rect x="1310" y="758" width="80" height="144" rx="26" fill="#F4F5F1"/>
+<rect x="1282" y="820" width="34" height="150" rx="16" fill="#F4F5F1"/>
+<rect x="1384" y="820" width="34" height="150" rx="16" fill="#F4F5F1"/>
+<rect x="1272" y="600" width="154" height="30" rx="15" fill="#C49A2C" fill-opacity="0.32"/>
+<circle cx="1440" cy="152" r="116" fill="#C49A2C" fill-opacity="0.16"/>
+<circle cx="260" cy="160" r="144" fill="#F3F4F0"/>
 </svg>

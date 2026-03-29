@@ -22,9 +22,9 @@ export default function FaqPage() {
     <>
       <SchemaOrg id="faq-schema" data={schema} />
       <section className="container-shell py-24">
-        <p className="mb-4 text-sm uppercase tracking-[0.25em] text-accent">FAQ</p>
-        <h1 className="font-display text-5xl uppercase leading-none sm:text-6xl">Common Questions</h1>
-        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-300">
+        <p className="mb-4 text-sm font-semibold uppercase tracking-[0.22em] text-accent">FAQ</p>
+        <h1 className="font-display text-5xl leading-[0.95] text-text sm:text-6xl">Common questions</h1>
+        <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
           Mackay Biohazard Cleaning answers common questions about specialist remediation, urgent response, service areas and how the process works.
         </p>
         <div className="mt-12 max-w-5xl">

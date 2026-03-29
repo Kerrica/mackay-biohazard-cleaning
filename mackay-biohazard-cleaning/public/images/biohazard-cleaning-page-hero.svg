@@ -1,10 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" fill="none">
-  <rect width="1600" height="900" fill="#0A0D12"/>
-  <rect x="40" y="40" width="1520" height="820" rx="36" fill="#12161D" stroke="#1E2530"/>
-  <circle cx="1280" cy="170" r="140" fill="#C8862A" fill-opacity="0.18"/>
-  <circle cx="330" cy="720" r="220" fill="#C8862A" fill-opacity="0.12"/>
-  <path d="M0 740C190 660 360 610 540 620C760 632 840 720 1050 736C1220 748 1400 700 1600 610V900H0V740Z" fill="#0F141B"/>
-  <rect x="118" y="118" width="300" height="10" rx="5" fill="#C8862A"/>
-  <text x="118" y="240" fill="#F0F2F5" font-size="72" font-family="Arial, sans-serif" font-weight="700">Biohazard cleaning team suited up Mackay</text>
-  <text x="118" y="320" fill="#7A8494" font-size="28" font-family="Arial, sans-serif">Replace with final AI-generated image using same filename.</text>
+<svg width="800" height="520" viewBox="0 0 800 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="520" fill="#E8ECE5"/>
+<rect y="376" width="800" height="144" fill="#D1D9CF"/>
+<rect x="474" y="76" width="214" height="316" rx="22" fill="#66717C"/>
+<rect x="520" y="122" width="120" height="52" rx="8" fill="#F7F7F5" fill-opacity="0.14"/>
+<rect x="520" y="196" width="120" height="52" rx="8" fill="#F7F7F5" fill-opacity="0.12"/>
+<rect x="520" y="270" width="120" height="52" rx="8" fill="#F7F7F5" fill-opacity="0.12"/>
+<circle cx="264" cy="234" r="56" fill="#F7F7F5"/>
+<rect x="214" y="294" width="100" height="144" rx="28" fill="#F7F7F5"/>
+<rect x="184" y="358" width="34" height="128" rx="14" fill="#F7F7F5"/>
+<rect x="310" y="358" width="34" height="128" rx="14" fill="#F7F7F5"/>
+<rect x="192" y="140" width="146" height="28" rx="14" fill="#C49A2C" fill-opacity="0.35"/>
+<rect x="84" y="332" width="98" height="44" rx="22" fill="#A4AEA0"/>
 </svg>

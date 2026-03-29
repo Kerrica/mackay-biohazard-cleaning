@@ -21,11 +21,11 @@ export const services: Service[] = [
     name: 'Biohazard Cleaning',
     shortName: 'Biohazard Cleaning',
     title: 'Professional Biohazard Cleaning — Mackay Region',
-    seoTitle: 'Biohazard Cleaning Mackay | Certified Hazmat Specialists',
+    seoTitle: 'Biohazard Cleaning Mackay | Professional Hazard Cleaning',
     description:
-      'Certified biohazard cleaning for properties, workplaces and public settings across Mackay and surrounding regions.',
+      'Biohazard cleaning for properties, workplaces and public settings across Mackay and surrounding regions.',
     summary:
-      'Mackay Biohazard Cleaning provides certified biohazard cleaning across Mackay and nearby regions for contaminated environments requiring controlled remediation, documentation and discreet handling.',
+      'Mackay Biohazard Cleaning provides biohazard cleaning across Mackay and nearby regions for contaminated environments requiring controlled remediation, documentation and discreet handling.',
     heroImage: '/images/biohazard-cleaning-page-hero.svg',
     heroAlt: 'Biohazard cleaning team suited up Mackay',
     intro: [
@@ -60,7 +60,7 @@ export const services: Service[] = [
     name: 'Trauma & Crime Scene Cleaning',
     shortName: 'Trauma & Crime Scene',
     title: 'Trauma & Crime Scene Cleaning Mackay',
-    seoTitle: 'Trauma & Crime Scene Cleaning Mackay | Compassionate & Certified',
+    seoTitle: 'Trauma & Crime Scene Cleaning Mackay | Compassionate & Professional',
     description:
       'Compassionate, discreet trauma and crime scene cleaning services across Mackay and surrounding regions.',
     summary:
