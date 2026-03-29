@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #0A0D12;
+  --color-surface: #12161D;
+  --color-border: #1E2530;
+  --color-accent: #C8862A;
+  --color-accent-lt: #E9A84C;
+  --color-text: #F0F2F5;
+  --color-muted: #7A8494;
+  --color-cta: #C8862A;
+  --color-cta-hover: #E9A84C;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-body), sans-serif;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+.container-shell {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.prose-copy p {
+  @apply text-base leading-8 text-slate-300;
+}
+
+.prose-copy ul {
+  @apply space-y-3 text-slate-300;
+}
