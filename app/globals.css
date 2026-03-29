@@ -1,0 +1,60 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #F4F8F8;
+  --color-surface: #FFFFFF;
+  --color-surface-alt: #EAF1F1;
+  --color-border: #D1DFE0;
+  --color-accent: #1E6B73;
+  --color-accent-lt: #5F8F96;
+  --color-text: #17313A;
+  --color-muted: #4E6570;
+  --color-cta: #C5443D;
+  --color-cta-hover: #A93631;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #f7fbfb 0%, #f2f7f7 45%, #edf4f4 100%);
+  color: var(--color-text);
+  font-family: var(--font-body), sans-serif;
+}
+
+* {
+  border-color: var(--color-border);
+}
+
+.container-shell {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.prose-copy p {
+  @apply text-base leading-8 text-slate-700;
+}
+
+.prose-copy ul {
+  @apply space-y-3 text-slate-700;
+}
+
+.soft-panel {
+  @apply rounded-[2rem] border border-[color:var(--color-border)] bg-white shadow-[0_16px_48px_rgba(23,49,58,0.08)];
+}
+
+.subtle-grid {
+  background-image:
+    linear-gradient(to right, rgba(30,107,115,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30,107,115,0.05) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.hero-radial {
+  background:
+    radial-gradient(circle at top right, rgba(95,143,150,0.18), transparent 26%),
+    radial-gradient(circle at bottom left, rgba(23,49,58,0.06), transparent 30%);
+}
