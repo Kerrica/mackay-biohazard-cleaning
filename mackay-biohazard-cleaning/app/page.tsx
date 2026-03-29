@@ -14,10 +14,9 @@ import { SchemaOrg } from '@/components/seo/SchemaOrg';
 
 export const metadata: Metadata = {
   title: 'Biohazard Cleaning Mackay | Trauma & Crime Scene Specialists',
-  description: 'Mackay's trusted biohazard, trauma and crime scene cleaning specialists. Available 24/7 across the Mackay region. Discreet, certified, compassionate.',
+  description: "Mackay's trusted biohazard, trauma and crime scene cleaning specialists. Available 24/7 across the Mackay region. Discreet, certified, compassionate.",
   alternates: { canonical: '/' },
 };
-
 const services = [
   {
     title: 'Biohazard Cleaning',
