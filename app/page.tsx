@@ -112,7 +112,7 @@ export default function HomePage() {
               alt="Biohazard cleaning technician in PPE in Mackay"
               fill
               priority
-              className="object-cover object-[65%_28%]"
+              className="object-cover object-[50%_5%]"
             />
 
             <div className="absolute inset-0 bg-slate-950/42" />
