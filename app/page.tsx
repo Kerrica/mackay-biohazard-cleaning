@@ -4,34 +4,33 @@ export default function HomePage() {
   return (
     <>
       <section className="pb-14 pt-0">
-        <div className="w-full">
-          <div className="overflow-hidden bg-[#0f2230]">
-            <div className="relative min-h-[720px] w-full">
-              <Image
-                src="/images/hoarded-room-mackay-before.jpg"
-                alt="Severe clutter before cleanup in Mackay"
-                fill
-                priority
-                className="object-cover object-center"
-              />
-              <div className="absolute inset-0 bg-[#0f2230]/72" />
-              <div className="relative z-10 flex min-h-[720px] items-center">
-                <div className="container-shell">
-                  <div className="max-w-[640px]">
-                    <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-cyan-300">
-                      24/7 Urgent Response Line
-                    </p>
-                    <h1 className="font-display text-[3.5rem] leading-[0.95] text-white sm:text-[5rem]">
-                      Biohazard &amp; Trauma Cleaning Mackay
-                    </h1>
-                    <p className="mt-6 max-w-[620px] text-lg leading-9 text-slate-200">
-                      Discreet, controlled remediation for hoarding, squalor, trauma,
-                      biohazard and complex property situations across Mackay and surrounding regions.
-                    </p>
-                    <div className="mt-8 flex flex-wrap gap-4">
-                      <a href="tel:0405450705" className="btn-primary">Call the Response Line</a>
-                      <a href="/services" className="btn-secondary">View Services</a>
-                    </div>
+        <div className="w-full overflow-hidden bg-[#0f2230]">
+          <div className="relative min-h-[720px] w-full">
+            <Image
+              src="/images/hoarded-room-mackay-before.jpg"
+              alt="Severe clutter before cleanup in Mackay"
+              fill
+              priority
+              className="object-cover object-center"
+            />
+            <div className="absolute inset-0 bg-[#0f2230]/72" />
+
+            <div className="relative z-10 flex min-h-[720px] items-center">
+              <div className="container-shell">
+                <div className="max-w-[640px]">
+                  <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-cyan-300">
+                    24/7 Urgent Response Line
+                  </p>
+                  <h1 className="font-display text-[3.5rem] leading-[0.95] text-white sm:text-[5rem]">
+                    Biohazard &amp; Trauma Cleaning Mackay
+                  </h1>
+                  <p className="mt-6 max-w-[620px] text-lg leading-9 text-slate-200">
+                    Discreet, controlled remediation for hoarding, squalor, trauma,
+                    biohazard and complex property situations across Mackay and surrounding regions.
+                  </p>
+                  <div className="mt-8 flex flex-wrap gap-4">
+                    <a href="tel:0405450705" className="btn-primary">Call the Response Line</a>
+                    <a href="/services" className="btn-secondary">View Services</a>
                   </div>
                 </div>
               </div>
@@ -75,11 +74,9 @@ export default function HomePage() {
             <p className="text-sm font-semibold uppercase tracking-[0.22em] text-brand-teal">
               Additional Support
             </p>
-
             <h2 className="mt-3 font-display text-5xl leading-[0.95] text-slate-900">
               Not every situation requires full remediation
             </h2>
-
             <p className="mt-6 text-xl leading-8 text-slate-600">
               Some situations need practical hands-on help. Others need a clear plan,
               coordination and the right next step. These services can be booked directly

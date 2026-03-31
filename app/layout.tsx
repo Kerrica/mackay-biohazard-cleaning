@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Mackay Biohazard Cleaning",
-  description: "Biohazard, trauma, hoarding and property recovery services across Mackay and surrounding regions."
+  description: "Biohazard, trauma, hoarding, decluttering and property recovery services across Mackay and surrounding regions."
 };
 
 function Header() {

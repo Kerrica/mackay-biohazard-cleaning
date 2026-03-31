@@ -1,29 +1,22 @@
-COMPLETE RESET BUILD
+FULL REBUILD PACKAGE V2
 
-This package is a full self-contained reset build.
+This package replaces the broken build with a self-contained structure.
 
 Included:
-- package.json
-- tsconfig.json
-- next-env.d.ts
-- next.config.js
-- postcss.config.js
-- tailwind.config.ts
-- app/layout.tsx
-- app/globals.css
-- app/page.tsx
-- app/about/page.tsx
-- app/contact/page.tsx
-- app/faq/page.tsx
-- app/locations/page.tsx
-- app/services/page.tsx
-- public/images/hoarded-room-mackay-before.jpg
+- core config files
+- full app folder
+- locations/[slug]/page.tsx
+- services/[slug]/page.tsx
+- privacy policy page
+- one hero image in public/images
 
-Updates included:
-- next dependency set to 15.2.6
-- support section rewritten with separated Decluttering and Crisis Navigation offers
+Important:
+- no @/ imports are used
+- next is set to 15.2.6
+- this package is designed to stop missing-module errors from old alias-based files
 
-Upload:
-1. Replace your existing repo contents with this package.
-2. Commit.
-3. Redeploy.
+Best upload method:
+1. Replace repo contents with this package.
+2. Delete old app files/folders that are not in this package if they still remain in GitHub.
+3. Commit changes.
+4. Redeploy.
