@@ -105,7 +105,8 @@ export default function HomePage() {
       <SchemaOrg id="home-schema" data={homeSchema} />
 
 <section className="pb-14 pt-0">
-  <div className="overflow-hidden bg-[#0f2230]">  
+  <div className="mx-auto max-w-[1400px] px-6 sm:px-8 lg:px-10">
+    <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-[#0f2230] shadow-[0_30px_80px_rgba(15,23,42,0.16)]"> 
     <div className="grid items-stretch lg:grid-cols-[1.05fr_0.95fr]">
       <div className="relative flex items-center">
         <div className="absolute inset-0">
@@ -180,6 +181,7 @@ export default function HomePage() {
             </article>
           ))}
         </div>
+      </div>
       </section>
 
       <section className="container-shell pb-14">
