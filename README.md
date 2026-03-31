@@ -11,8 +11,6 @@ Static Next.js website for a high-trust specialist cleaning business serving Mac
 
 ## Local development
 
-
-
 ```bash
 npm install
 npm run dev

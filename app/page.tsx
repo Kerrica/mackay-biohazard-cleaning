@@ -1,4 +1,3 @@
-
 import Image from 'next/image';
 import Link from 'next/link';
 import type { Metadata } from 'next';
@@ -28,22 +27,22 @@ const serviceCards = [
     title: 'Unattended Death & Biohazard Cleaning',
     description: 'Discreet response for contamination, odour concerns and high-sensitivity environments requiring controlled remediation.',
     href: '/services/biohazard-cleaning/',
-    image: '/images/biohazard-cleanup-mackay-active-remediation.jpg',
-    alt: 'Active biohazard cleanup in progress inside Mackay property',
+    image: '/images/biohazard-cleaning-mackay-on-site-team.jpg',
+    alt: 'Biohazard cleaning technician on site in Mackay property',
   },
   {
     title: 'Trauma & Crime Scene Cleaning',
     description: 'Calm, practical cleanup after traumatic events, with clear communication from first contact to handover.',
     href: '/services/trauma-crime-scene-cleaning/',
     image: '/images/trauma-cleaning-mackay-ppe-doorway.jpg',
-    alt: 'Biohazard cleaning technician wearing PPE onsite in Mackay doorway',
+    alt: 'Trauma cleaning specialist in PPE arriving at Mackay property',
   },
   {
     title: 'Vacate & Property Recovery',
     description: 'Fast, practical reset support for families, landlords, agents and time-sensitive property handovers.',
     href: '/contact/',
     image: '/images/bedroom-cleaning-mackay-after.jpg',
-    alt: 'Cleaned bedroom after hoarding cleanup in Mackay',
+    alt: 'Recovered bedroom after professional property reset in Mackay',
   },
 ];
 
@@ -52,11 +51,15 @@ const supportCards = [
     title: 'Decluttering',
     description: 'Targeted reset work for rooms, storage areas and properties that need practical clearing and organisation.',
     href: '/contact/',
+    image: '/images/storage-declutter-mackay-before.jpg',
+    alt: 'Storage area before decluttering in Mackay',
   },
   {
     title: 'Crisis Navigation',
     description: 'Supportive guidance when the next step is unclear, helping families and stakeholders move from overwhelm to action.',
     href: '/contact/',
+    image: '/images/biohazard-cleaning-technician-mackay-ppe-suit.png',
+    alt: 'Biohazard cleaning specialist available for crisis coordination in Mackay',
   },
 ];
 
@@ -65,7 +68,7 @@ const trustedBy = ['NDIS Providers', 'Housing Services', 'Real Estate', 'Governm
 const beforeAfter = [
   {
     title: 'Bedroom Recovery',
-    before: '/images/bedroom-cleaning-mackay-before.jpg',
+    before: '/images/hoarded-room-mackay-before.jpg',
     beforeAlt: 'Bedroom before hoarding cleanup in Mackay',
     after: '/images/bedroom-cleaning-mackay-after.jpg',
     afterAlt: 'Bedroom after hoarding cleanup in Mackay',
@@ -101,25 +104,25 @@ export default function HomePage() {
     <>
       <SchemaOrg id="home-schema" data={homeSchema} />
 
-      <section className="container-shell pt-8 pb-14 lg:pt-10 lg:pb-18">
-        <div className="overflow-hidden rounded-[2rem] border border-[#c4d7da] bg-[#102c36] shadow-[0_24px_70px_rgba(18,57,68,0.18)]">
-          <div className="relative min-h-[620px] lg:min-h-[720px]">
-            <Image
-              src="/images/biohazard-cleaning-technician-mackay-ppe-suit.png"
-              alt="Biohazard cleaning specialist in PPE in Mackay"
-              fill
-              priority
-              className="object-cover object-[68%_18%]"
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-[rgba(8,25,34,0.86)] via-[rgba(8,25,34,0.68)] to-[rgba(8,25,34,0.18)]" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[rgba(8,25,34,0.24)] to-transparent" />
+      <section className="pb-14 lg:pb-18">
+        <div className="relative min-h-[720px] overflow-hidden border-b border-[#1f4d56] bg-[#0f2531] lg:min-h-[820px]">
+          <Image
+            src="/images/hoarded-room-mackay-before.jpg"
+            alt="Hoarded room in Mackay before cleanup"
+            fill
+            priority
+            className="object-cover object-center opacity-55"
+          />
+          <div className="absolute inset-0 bg-gradient-to-r from-[rgba(8,22,31,0.88)] via-[rgba(8,22,31,0.72)] to-[rgba(8,22,31,0.22)]" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[rgba(8,22,31,0.18)] to-transparent" />
 
-            <div className="relative z-10 flex min-h-[620px] max-w-[760px] flex-col justify-center px-8 py-12 sm:px-12 lg:min-h-[720px] lg:px-16">
-              <p className="text-sm font-semibold uppercase tracking-[0.22em] text-[#9ed1d6]">24/7 urgent response line</p>
-              <h1 className="mt-5 max-w-[11ch] font-display text-[2.8rem] leading-[0.94] text-white sm:text-[3.8rem] lg:text-[4.6rem]">
-                Specialist Biohazard &amp; Trauma Cleaning Mackay
+          <div className="relative z-10 mx-auto grid min-h-[720px] max-w-[1440px] items-end px-6 sm:px-8 lg:min-h-[820px] lg:grid-cols-[0.95fr_1.05fr] lg:px-10">
+            <div className="pb-14 pt-16 lg:pb-20 lg:pt-24">
+              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#9ed1d6]">24/7 urgent response line</p>
+              <h1 className="mt-5 max-w-[10ch] font-display text-[3.4rem] leading-[0.92] text-white sm:text-[4.6rem] lg:text-[5.8rem]">
+                Biohazard &amp; Trauma Cleaning Mackay
               </h1>
-              <p id="homepage-summary" className="mt-6 max-w-[34rem] text-lg leading-8 text-white/92 sm:text-[1.14rem]">
+              <p id="homepage-summary" className="mt-7 max-w-[36rem] text-[1.14rem] leading-9 text-white/92">
                 Discreet, controlled remediation for hoarding, squalor, trauma, biohazard and complex property situations across Mackay and surrounding regions. Every situation is handled with the right level of care, structure and practical direction from first contact to handover.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
@@ -127,6 +130,18 @@ export default function HomePage() {
                 <Button href="/services/" variant="ghost" className="border-white/35 bg-white/10 text-white backdrop-blur hover:border-white hover:bg-white/18 hover:text-white">
                   View Services
                 </Button>
+              </div>
+            </div>
+
+            <div className="relative hidden h-full min-h-[720px] lg:block">
+              <div className="absolute inset-x-0 bottom-0 top-16">
+                <Image
+                  src="/images/biohazard-cleaning-technician-mackay-ppe-suit.png"
+                  alt="Biohazard cleaning specialist in PPE in Mackay"
+                  fill
+                  priority
+                  className="object-contain object-bottom"
+                />
               </div>
             </div>
           </div>
@@ -157,20 +172,28 @@ export default function HomePage() {
 
       <section className="container-shell pb-14">
         <div className="rounded-[2rem] border border-[#cfe0e2] bg-white p-8 shadow-[0_14px_34px_rgba(23,49,58,0.06)] lg:p-10">
-          <div className="grid gap-6 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+          <div className="grid gap-6 lg:grid-cols-[1.05fr_0.95fr] lg:items-start">
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-accent">Additional support</p>
-              <h2 className="mt-3 font-display text-4xl leading-[0.95] text-text sm:text-5xl">Decluttering and crisis navigation are part of the service mix</h2>
+              <h2 className="mt-3 font-display text-4xl leading-[0.95] text-text sm:text-5xl">Decluttering and crisis navigation can be booked directly</h2>
               <p className="mt-5 max-w-3xl text-base leading-8 text-slate-600">
                 Not every enquiry is a full remediation job. Some situations need calm decluttering, some need practical coordination, and some need a clear starting point when people do not know who to call first.
               </p>
             </div>
-            <div className="grid gap-4">
+            <div className="grid gap-5">
               {supportCards.map((card) => (
-                <Link key={card.title} href={card.href} className="rounded-[1.25rem] border border-slate-200 bg-[linear-gradient(135deg,#f9fcfc_0%,#eef5f5_100%)] p-5 shadow-[0_10px_24px_rgba(23,49,58,0.04)] hover:border-accent">
-                  <p className="font-display text-[1.9rem] leading-none text-text">{card.title}</p>
-                  <p className="mt-3 text-sm leading-7 text-slate-600">{card.description}</p>
-                </Link>
+                <article key={card.title} className="overflow-hidden rounded-[1.4rem] border border-slate-200 bg-[linear-gradient(135deg,#f9fcfc_0%,#eef5f5_100%)] shadow-[0_10px_24px_rgba(23,49,58,0.04)]">
+                  <div className="grid gap-0 sm:grid-cols-[0.42fr_0.58fr]">
+                    <div className="relative min-h-[220px]">
+                      <Image src={card.image} alt={card.alt} fill className="object-cover" />
+                    </div>
+                    <div className="p-5">
+                      <p className="font-display text-[1.9rem] leading-none text-text">{card.title}</p>
+                      <p className="mt-3 text-sm leading-7 text-slate-600">{card.description}</p>
+                      <Link href={card.href} className="mt-5 inline-flex rounded-full border border-[#c9d8db] px-4 py-2 text-sm font-semibold text-text transition hover:border-accent hover:text-accent">Find Out More</Link>
+                    </div>
+                  </div>
+                </article>
               ))}
             </div>
           </div>
