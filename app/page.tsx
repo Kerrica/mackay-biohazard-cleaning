@@ -104,62 +104,63 @@ export default function HomePage() {
     <>
       <SchemaOrg id="home-schema" data={homeSchema} />
 
-<section className="pb-14 pt-0">
-  <div className="mx-auto max-w-[1400px] px-6 sm:px-8 lg:px-10">
-    <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-[#0f2230] shadow-[0_30px_80px_rgba(15,23,42,0.16)]"> 
-    <div className="grid items-stretch lg:grid-cols-[1.05fr_0.95fr]">
-      <div className="relative flex items-center">
-        <div className="absolute inset-0">
-          <Image
-            src="/images/hoarded-room-mackay-before.jpg"
-            alt="Severe cluttered room before cleanup in Mackay"
-            fill
-            className="object-cover object-center opacity-35"
-          />
-          <div className="absolute inset-0 bg-slate-950/55" />
-        </div>
+      <section className="pb-14 pt-0">
+        <div className="mx-auto max-w-[1400px] px-6 sm:px-8 lg:px-10">
+          <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-[#0f2230] shadow-[0_30px_80px_rgba(15,23,42,0.16)]">
+            <div className="grid items-stretch lg:grid-cols-[1.05fr_0.95fr]">
+              <div className="relative flex items-center">
+                <div className="absolute inset-0">
+                  <Image
+                    src="/images/hoarded-room-mackay-before.jpg"
+                    alt="Severe cluttered room before cleanup in Mackay"
+                    fill
+                    className="object-cover object-center opacity-35"
+                  />
+                  <div className="absolute inset-0 bg-slate-950/55" />
+                </div>
 
-        <div className="relative z-10 max-w-[640px] px-8 py-14 sm:px-12 lg:px-14 lg:py-16">
-          <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-cyan-300">
-            24/7 Urgent Response Line
-          </p>
+                <div className="relative z-10 max-w-[640px] px-8 py-14 sm:px-12 lg:px-14 lg:py-16">
+                  <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-cyan-300">
+                    24/7 Urgent Response Line
+                  </p>
 
-          <h1 className="max-w-[520px] font-display text-[3.9rem] leading-[0.94] tracking-tight text-white sm:text-[5rem]">
-            Biohazard &amp; Trauma Cleaning Mackay
-          </h1>
+                  <h1 className="max-w-[520px] font-display text-[3.9rem] leading-[0.94] tracking-tight text-white sm:text-[5rem]">
+                    Biohazard &amp; Trauma Cleaning Mackay
+                  </h1>
 
-          <p className="mt-7 max-w-[520px] text-lg leading-9 text-slate-200">
-            Discreet, controlled remediation for hoarding, squalor, trauma,
-            biohazard and complex property situations across Mackay and
-            surrounding regions.
-          </p>
+                  <p className="mt-7 max-w-[520px] text-lg leading-9 text-slate-200">
+                    Discreet, controlled remediation for hoarding, squalor, trauma,
+                    biohazard and complex property situations across Mackay and
+                    surrounding regions.
+                  </p>
 
-          <div className="mt-10 flex flex-wrap gap-4">
-            <Button href={`tel:${siteConfig.phone}`} variant="primary">
-              Call the Response Line
-            </Button>
-            <Button href="/services/" variant="outline">
-              View Services
-            </Button>
+                  <div className="mt-10 flex flex-wrap gap-4">
+                    <Button href={`tel:${siteConfig.phone}`} variant="primary">
+                      Call the Response Line
+                    </Button>
+                    <Button href="/services/" variant="outline">
+                      View Services
+                    </Button>
+                  </div>
+                </div>
+              </div>
+
+              <div className="relative min-h-[620px] bg-[#173042]">
+                <div className="absolute inset-0">
+                  <Image
+                    src="/images/biohazard-cleaning-technician-mackay-ppe-suit.png"
+                    alt="Biohazard cleaning technician in PPE in Mackay"
+                    fill
+                    priority
+                    className="object-cover object-[58%_30%]"
+                  />
+                </div>
+                <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-[#0f2230] via-[#0f2230]/55 to-transparent" />
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div className="relative min-h-[620px] bg-[#173042]">
-        <div className="absolute inset-0">
-          <Image
-            src="/images/biohazard-cleaning-technician-mackay-ppe-suit.png"
-            alt="Biohazard cleaning technician in PPE in Mackay"
-            fill
-            priority
-            className="object-cover object-[58%_30%]"
-          />
-        </div>
-        <div className="absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-[#0f2230] via-[#0f2230]/55 to-transparent" />
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       <section className="container-shell pb-14 lg:pb-18">
         <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
