@@ -2,7 +2,7 @@ export default function FaqPage() {
   const faqs = [
     ["Do you only handle biohazard work?", "No. Services also include hoard and squalor recovery, decluttering, vacate support and crisis navigation."],
     ["Do you service outside Mackay?", "Yes. Surrounding regions can be discussed depending on the job type and urgency."],
-    ["Is the service confidential?", "Yes. Discretion, respectful communication and privacy are built into the service approach."],
+    ["Is the service confidential?", "Yes. Discretion, respectful communication and privacy are built into the service approach."]
   ];
 
   return (

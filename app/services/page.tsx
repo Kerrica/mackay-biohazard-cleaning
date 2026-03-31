@@ -2,24 +2,24 @@ export default function ServicesPage() {
   const services = [
     {
       title: "Biohazard Cleaning",
-      text: "Controlled remediation for contaminated environments requiring structured handling and discreet attendance.",
+      text: "Controlled remediation for contaminated environments requiring structured handling and discreet attendance."
     },
     {
       title: "Trauma & Crime Scene Cleaning",
-      text: "Calm, practical cleanup after traumatic events, with clear communication from first contact to handover.",
+      text: "Calm, practical cleanup after traumatic events, with clear communication from first contact to handover."
     },
     {
       title: "Hoard & Squalor Recovery",
-      text: "Structured cleanup, decluttering and property reset for severe clutter, squalor and difficult living environments.",
+      text: "Structured cleanup, decluttering and property reset for severe clutter, squalor and difficult living environments."
     },
     {
       title: "Decluttering",
-      text: "Targeted practical clearing and reset work for rooms, storage areas and properties that need structure restored.",
+      text: "Targeted practical clearing and reset work for rooms, storage areas and properties that need structure restored."
     },
     {
       title: "Crisis Navigation",
-      text: "Practical guidance when the next step is unclear, helping families and stakeholders move from overwhelm to action.",
-    },
+      text: "Practical guidance when the next step is unclear, helping families and stakeholders move from overwhelm to action."
+    }
   ];
 
   return (

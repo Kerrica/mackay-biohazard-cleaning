@@ -1,6 +1,6 @@
-FULL UPLOAD PACKAGE
+COMPLETE RESET BUILD
 
-This package includes a complete, self-contained Next.js project structure.
+This package is a full self-contained reset build.
 
 Included:
 - package.json
@@ -19,17 +19,11 @@ Included:
 - app/services/page.tsx
 - public/images/hoarded-room-mackay-before.jpg
 
-Important:
-- Next dependency is set to 15.2.6
-- No path aliases are used
-- No missing shared component imports
-- Hero uses the renamed photo:
-  /public/images/hoarded-room-mackay-before.jpg
+Updates included:
+- next dependency set to 15.2.6
+- support section rewritten with separated Decluttering and Crisis Navigation offers
 
-UPLOAD METHOD
-1. Upload the full contents of this package into your repo root.
-2. Replace existing files when prompted.
-3. Commit changes.
-4. Redeploy in Vercel.
-
-If other old files remain in your repo, they should not break this package as long as these new app files replace the old ones.
+Upload:
+1. Replace your existing repo contents with this package.
+2. Commit.
+3. Redeploy.

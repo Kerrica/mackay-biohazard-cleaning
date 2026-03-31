@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Mackay Biohazard Cleaning",
-  description: "Biohazard, trauma, hoarding and property recovery services across Mackay and surrounding regions.",
+  description: "Biohazard, trauma, hoarding and property recovery services across Mackay and surrounding regions."
 };
 
 function Header() {
@@ -27,9 +27,7 @@ function Header() {
           <a href="tel:0405450705" className="hidden text-[18px] font-bold text-slate-700 md:block">
             0405 450 705
           </a>
-          <a href="tel:0405450705" className="btn-primary">
-            Call Now
-          </a>
+          <a href="tel:0405450705" className="btn-primary">Call Now</a>
         </div>
       </div>
     </header>
