@@ -104,44 +104,42 @@ export default function HomePage() {
     <>
       <SchemaOrg id="home-schema" data={homeSchema} />
 
-      <section className="pb-14 lg:pb-18">
-        <div className="relative min-h-[720px] overflow-hidden border-b border-[#1f4d56] bg-[#0f2531] lg:min-h-[820px]">
-          <Image
-            src="/images/hoarded-room-mackay-before.jpg"
-            alt="Hoarded room in Mackay before cleanup"
-            fill
-            priority
-            className="object-cover object-center opacity-55"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[rgba(8,22,31,0.88)] via-[rgba(8,22,31,0.72)] to-[rgba(8,22,31,0.22)]" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[rgba(8,22,31,0.18)] to-transparent" />
+      <section className="px-6 pb-14 pt-8 sm:px-8 lg:px-10 lg:pb-18">
+        <div className="relative overflow-hidden rounded-[2rem] border border-slate-200 bg-slate-900 shadow-[0_30px_80px_rgba(15,23,42,0.18)]">
+          <div className="relative min-h-[720px]">
+            <Image
+              src="/images/biohazard-cleaning-technician-mackay-ppe-suit.png"
+              alt="Biohazard cleaning technician in PPE in Mackay"
+              fill
+              priority
+              className="object-cover object-[65%_28%]"
+            />
 
-          <div className="relative z-10 mx-auto grid min-h-[720px] max-w-[1440px] items-end px-6 sm:px-8 lg:min-h-[820px] lg:grid-cols-[0.95fr_1.05fr] lg:px-10">
-            <div className="pb-14 pt-16 lg:pb-20 lg:pt-24">
-              <p className="text-sm font-semibold uppercase tracking-[0.24em] text-[#9ed1d6]">24/7 urgent response line</p>
-              <h1 className="mt-5 max-w-[10ch] font-display text-[3.4rem] leading-[0.92] text-white sm:text-[4.6rem] lg:text-[5.8rem]">
-                Biohazard &amp; Trauma Cleaning Mackay
-              </h1>
-              <p id="homepage-summary" className="mt-7 max-w-[36rem] text-[1.14rem] leading-9 text-white/92">
-                Discreet, controlled remediation for hoarding, squalor, trauma, biohazard and complex property situations across Mackay and surrounding regions. Every situation is handled with the right level of care, structure and practical direction from first contact to handover.
-              </p>
-              <div className="mt-8 flex flex-wrap gap-4">
-                <Button href={`tel:${siteConfig.phone}`}>Call the Response Line</Button>
-                <Button href="/services/" variant="ghost" className="border-white/35 bg-white/10 text-white backdrop-blur hover:border-white hover:bg-white/18 hover:text-white">
-                  View Services
-                </Button>
-              </div>
-            </div>
+            <div className="absolute inset-0 bg-slate-950/42" />
+            <div className="absolute inset-y-0 left-0 w-full bg-gradient-to-r from-slate-950/84 via-slate-950/58 to-transparent lg:w-[58%]" />
 
-            <div className="relative hidden h-full min-h-[720px] lg:block">
-              <div className="absolute inset-x-0 bottom-0 top-16">
-                <Image
-                  src="/images/biohazard-cleaning-technician-mackay-ppe-suit.png"
-                  alt="Biohazard cleaning specialist in PPE in Mackay"
-                  fill
-                  priority
-                  className="object-contain object-bottom"
-                />
+            <div className="relative z-10 flex min-h-[720px] items-center">
+              <div className="max-w-[680px] px-8 py-14 sm:px-12 lg:px-16">
+                <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-cyan-300">
+                  24/7 urgent response line
+                </p>
+
+                <h1 className="max-w-[520px] font-display text-[4.2rem] leading-[0.92] tracking-tight text-white sm:text-[5.2rem]">
+                  Biohazard &amp; Trauma Cleaning Mackay
+                </h1>
+
+                <p id="homepage-summary" className="mt-8 max-w-[560px] text-lg leading-9 text-slate-200">
+                  Discreet, controlled remediation for hoarding, squalor, trauma, biohazard and complex property situations across Mackay and surrounding regions.
+                </p>
+
+                <div className="mt-10 flex flex-wrap gap-4">
+                  <Button href={`tel:${siteConfig.phone}`} className="bg-red-500 text-white hover:bg-red-600">
+                    Call the Response Line
+                  </Button>
+                  <Button href="/services/" variant="ghost">
+                    View Services
+                  </Button>
+                </div>
               </div>
             </div>
           </div>
